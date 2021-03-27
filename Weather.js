@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     color: "white",
     fontFamily: "Roboto_100Thin",
     fontSize: 44,
-    marginBottom: 10,
+    marginBottom: 8,
   },
   subTitle: {
     color: "white",
