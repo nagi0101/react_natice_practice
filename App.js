@@ -52,10 +52,11 @@ export default class App extends React.Component {
   }
   render() {
     const { isLoading, temp, condition } = this.state;
+    console.log(isLoading, temp, condition);
     return isLoading ? (
       <Loading />
     ) : (
-      <Weather temp={Math.round(temp)} condition={condition} />
+      <Weather temp={Math.round(temp)} condition={condition || "Clear"} />
     );
   }
 }
